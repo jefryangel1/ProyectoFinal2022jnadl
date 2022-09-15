@@ -1,0 +1,21 @@
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'img1 img1 img2 img3'
+    'img1 img1 img4 img4'
+    ;
+    grid-template-rows: 40vh 40vh;
+    grid-template-columns: 20vh 100vh;
+}
+.a{
+    grid-area: img1;
+}
+.b{
+    grid-area: img2;
+}
+.c{
+    grid-area: img3;
+}
+.d{
+    grid-area: img4;
+}

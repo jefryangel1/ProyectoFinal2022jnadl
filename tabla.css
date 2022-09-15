@@ -1,0 +1,47 @@
+body {
+    background: white;
+    font-family: monospace;
+  }
+  
+  .container-table{
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 22%);
+    grid-auto-rows: 10%;
+  }
+  
+  .table__title{
+   grid-column-start: 1 ;
+   grid-column-end: 6;
+  
+    background: rgb(105, 105, 103);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.9em;
+  }
+  
+  .table__header, .table__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table__header{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .table__item{
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  
+  
+  
+  

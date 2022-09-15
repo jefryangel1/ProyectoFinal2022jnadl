@@ -1,0 +1,9 @@
+<?php
+session_start();
+$conectar=mysqli_connect(
+    'localhost',
+    'root',
+    '',
+    'pc_evalfinal2022'
+);
+?>
